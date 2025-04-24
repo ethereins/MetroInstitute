@@ -1,0 +1,22 @@
+{
+    "name": "pert2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "^5.1.0",
+        "nodemon": "^3.1.9",
+        "pert2": "file:",
+        "pertemuan2": "file:",
+        "pertemuan2new": "file:"
+    },
+    "description": ""
+}
