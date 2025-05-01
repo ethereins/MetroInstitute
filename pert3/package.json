@@ -1,0 +1,27 @@
+{
+    "name": "pert3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js",
+        "start": "node src/index.js",
+        "migrate": "npx sequelize-cli db:migrate",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "^5.1.0",
+        "mysql2": "^3.14.1",
+        "nodemon": "^3.1.10",
+        "pert3": "file:",
+        "pertemuan3": "file:",
+        "sequelize": "^6.37.7"
+    },
+    "devDependencies": {
+        "sequelize-cli": "^6.6.2"
+    },
+    "description": ""
+}
